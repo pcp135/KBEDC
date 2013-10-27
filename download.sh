@@ -2,7 +2,7 @@
 
 cd /mnt
 sudo mkdir data
-chown ubuntu data
+sudo chown ubuntu data
 cd data
 wget -x -nd --load-cookies $HOME/KBEDC/cookies.txt http://www.kaggle.com/c/belkin-energy-disaggregation-competition/download/H1.zip
 unzip H1.zip
