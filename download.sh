@@ -1,9 +1,7 @@
 #!/bin/bash
 
 cd $HOME/KBEDC
-if [ -d ./data/ ]; then
-	mkdir data
-fi
+mkdir data
 cd data
 wget -x -nd --load-cookies ../cookies.txt http://www.kaggle.com/c/belkin-energy-disaggregation-competition/download/H1.zip
 unzip H1.zip
